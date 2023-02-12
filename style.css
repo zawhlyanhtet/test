@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background: black;
+  color: #fff;
+  padding-block: 0.6rem;
+  padding-inline: 1.5rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.btn:active {
+  background: #eee;
+  color: black;
+}
+
+.card__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: #eee;
+  padding: 1.2rem;
+  border-radius: 1rem;
+  max-width: max-content;
+}
